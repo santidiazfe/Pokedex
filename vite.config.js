@@ -5,7 +5,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        /dist/output.css
+        /^node:.*/,
       ]
     }
   }
